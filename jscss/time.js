@@ -13,15 +13,15 @@ function showTime() {
 	minutes = "0" + minutes; 
 	if (seconds < 10) 
 	seconds = "0" + seconds; 
-	var currentTimeString = "<c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >Dear Tian:</c><br>"
+	var currentTimeString = "<c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >Justin:</c><br>"
 		+ "<c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >We have been in love with you for:</c><br> "
 		+ "&nbsp&nbsp&nbsp&nbsp&nbsp"
 		+ "<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" + days +" </c><c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >day </c>" 
 		+ "<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" + hours+" </c><c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >hour </c>"
 		+"<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" + minutes+" </c><c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >min </c>"
 		+"<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" +seconds+" </c><c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >sec</c><br>"
-		+ "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >只愿执子之手,与子偕老.</c><br>"
-		+	"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<c style=\"color: #CCCCCC;text-align:right; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:20px\" >----韩文豪   2017-11-03</c>"; 
+		+ "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<c style=\"color: #fff; text-shadow:2px 3px 3px #222; font-size:16px\" >只愿用彩虹的浪漫,温柔包装.</c><br>"
+		+	"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<c style=\"color: #CCCCCC;text-align:right; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:20px\" >----amiv   2019-09-08</c>"; 
 	document.getElementById("show").innerHTML=currentTimeString;  //改这地方
 	window.setTimeout("showTime()", 1000); 
 } 
